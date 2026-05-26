@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新闻详情 - AI Safety News Digest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            darkBg: '#060913',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #060913; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+  </style>
+</head>
+
+<body class="bg-darkBg text-slate-200 min-h-screen relative overflow-x-hidden antialiased">
+  <div class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-blue-900/10 blur-[120px] pointer-events-none"></div>
+  <div class="absolute bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] rounded-full bg-purple-900/10 blur-[120px] pointer-events-none"></div>
+
+  <nav class="border-b border-white/5 bg-darkBg/60 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
+    <div class="max-w-4xl mx-auto flex justify-between items-center gap-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-lg text-white font-bold text-sm tracking-wider">α★</div>
+        <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-slate-200 to-slate-500 bg-clip-text text-transparent">
+          AI Safety News Digest
+        </span>
+      </a>
+      <div id="digest-date" class="text-sm text-slate-500 font-mono bg-white/5 px-3 py-1 rounded-full border border-white/5">
+        Loading...
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-12 relative z-10 space-y-8">
+    <a href="index.html" class="inline-flex items-center space-x-2 text-sm text-slate-500 hover:text-blue-400 transition-colors group">
+      <svg class="w-4 h-4 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+      </svg>
+      <span>返回新闻列表</span>
+    </a>
+
+    <div id="article-root" class="space-y-8">
+      <div class="bg-white/[0.02] backdrop-blur-md rounded-2xl border border-white/10 p-6 sm:p-8 text-slate-400">
+        Loading article...
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 mt-24 py-8 bg-black/40 backdrop-blur-md relative z-10">
+    <div class="max-w-4xl mx-auto px-4 text-center sm:text-left text-sm text-slate-500">
+      <p class="font-mono">© 2026 News Digest Project — Confidential AI Safety Research Data</p>
+    </div>
+  </footer>
+
+  <script>
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatDateTime(value) {
+      if (!value) return "";
+      const parsed = new Date(value);
+      if (Number.isNaN(parsed.getTime())) return escapeHtml(value);
+      return parsed.toISOString().replace("T", " ").slice(0, 16) + " UTC";
+    }
+
+    function formatScore(value) {
+      if (value === null || value === undefined || value === "") return "—";
+      const num = Number(value);
+      if (Number.isNaN(num)) return escapeHtml(value);
+      return num.toFixed(1).replace(/\.0$/, "") + " / 10";
+    }
+
+    function topicBadges(topics) {
+      if (!Array.isArray(topics) || topics.length === 0) return "";
+      return topics.map(topic => `
+        <span class="text-xs bg-white/5 border border-white/5 px-3 py-1 rounded-md text-slate-400 font-mono">
+          #${escapeHtml(topic)}
+        </span>
+      `).join("");
+    }
+
+    function takeawaysList(takeaways) {
+      if (!Array.isArray(takeaways) || takeaways.length === 0) return "";
+      return `
+        <section class="space-y-4">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500 font-mono flex items-center space-x-2">
+            <span class="w-1 h-3 bg-cyan-500 rounded-full"></span>
+            <span>深度分析与要点 / Detailed Takeaways</span>
+          </h3>
+          <ul class="space-y-3 text-slate-300 text-base leading-relaxed list-none pl-1">
+            ${takeaways.map(item => `
+              <li class="flex items-start space-x-2.5">
+                <span class="text-cyan-500 mt-1.5 shrink-0">▪</span>
+                <span>${escapeHtml(item)}</span>
+              </li>
+            `).join("")}
+          </ul>
+        </section>
+      `;
+    }
+
+    function renderArticle(article, data) {
+      document.title = `${article.title} - AI Safety News Digest`;
+      document.querySelector("#digest-date").textContent = data.date || "";
+
+      const root = document.querySelector("#article-root");
+      root.innerHTML = `
+        <div class="border-b border-white/5 pb-6 space-y-4">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center space-x-3 text-xs font-mono text-slate-500">
+                <span class="text-blue-400 font-bold">${escapeHtml(article.source || "Unknown")}</span>
+                <span>•</span>
+                <span>${formatDateTime(article.published_at)}</span>
+              </div>
+              <h1 class="text-2xl sm:text-3xl font-bold text-slate-200 leading-snug pt-1">
+                ${escapeHtml(article.title)}
+              </h1>
+            </div>
+
+            <div class="bg-rose-500/5 text-rose-400 px-4 py-2 rounded-xl border border-rose-500/10 text-center min-w-[90px] backdrop-blur-sm shrink-0">
+              <span class="block text-xs font-mono text-rose-300/60 uppercase tracking-wider">Relevance</span>
+              <span class="text-lg font-black font-mono">${formatScore(article.relevance)}</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-2 pt-2">
+            ${topicBadges(article.topics)}
+          </div>
+        </div>
+
+        <article class="bg-white/[0.02] backdrop-blur-md rounded-2xl border border-white/10 p-6 sm:p-8 space-y-8 shadow-2xl">
+          <section class="space-y-3">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500 font-mono flex items-center space-x-2">
+              <span class="w-1 h-3 bg-blue-500 rounded-full"></span>
+              <span>新闻摘要 / Context</span>
+            </h3>
+            <p class="text-slate-300 text-base leading-relaxed bg-white/[0.01] border border-white/5 p-4 rounded-xl">
+              ${escapeHtml(article.summary || "")}
+            </p>
+          </section>
+
+          ${article.why_it_matters ? `
+            <section class="bg-amber-500/5 border-l-4 border-amber-500/70 p-5 rounded-r-xl space-y-2">
+              <h3 class="text-sm font-bold uppercase tracking-wider text-amber-400 font-mono flex items-center space-x-1.5">
+                <span>★ 核心洞察 / Why It Matters</span>
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                ${escapeHtml(article.why_it_matters)}
+              </p>
+            </section>
+          ` : ""}
+
+          ${takeawaysList(article.takeaways)}
+
+          <div class="pt-4 border-t border-white/5 flex justify-end">
+            ${article.url ? `
+              <a href="${escapeHtml(article.url)}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 bg-blue-500/10 hover:bg-blue-500/20 text-blue-400 px-5 py-2.5 rounded-xl border border-blue-500/20 text-sm font-medium transition-all shadow-lg hover:shadow-blue-500/5">
+                <span>访问源新闻出处</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+              </a>
+            ` : ""}
+          </div>
+        </article>
+      `;
+    }
+
+    async function loadArticle() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      if (!id) {
+        document.querySelector("#article-root").innerHTML = `
+          <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6 text-red-300">
+            缺少文章 id。请从首页点击文章进入。
+          </div>
+        `;
+        return;
+      }
+
+      try {
+        const res = await fetch("./data/latest.json?ts=" + Date.now());
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const articles = data.articles || (data.sections || []).flatMap(section => section.articles || []);
+        const article = articles.find(item => item.id === id);
+
+        if (!article) {
+          throw new Error("Article not found in latest.json");
+        }
+
+        renderArticle(article, data);
+      } catch (err) {
+        document.querySelector("#article-root").innerHTML = `
+          <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6 text-red-300">
+            无法加载文章。请确认 <code>data/latest.json</code> 已生成，且文章 id 存在。
+            <div class="mt-2 text-xs font-mono text-red-300/70">${escapeHtml(err.message)}</div>
+          </div>
+        `;
+      }
+    }
+
+    loadArticle();
+  </script>
+</body>
+</html>
