@@ -1,0 +1,467 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T10:06:37.931253+00:00",
+  "stats": {
+    "fetched": 1870,
+    "freshness_filtered": 1486,
+    "deduplicated": 1247,
+    "analyzed": 80,
+    "top_pick": 12
+  },
+  "sections": [
+    {
+      "id": "threats",
+      "title": "Threats & Incidents",
+      "articles": [
+        {
+          "id": "2026-05-26-001-trapdoor-supply-chain-attack-actively-exploiting-npm-pypi-an",
+          "rank": 1,
+          "title": "TrapDoor Supply Chain Attack Actively Exploiting npm, PyPI, and CratesIO to Steal Developer Credentials in Crypto, DeFi, Solana, and AI Sectors - Rescana",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVDh1UXlzbVY0bGdIOFl6amVwRTg3akI2SmdWWUNGWkJ0NkxSY3JEV0hONF9mMHNMSVB6bGxrdUR4WU1Uanc3d3Nfc3pPWnZmWnNEc0d6S0x4cWZnYzljT3FtNGpmdkhZRS1zV0VteEsyZEF1XzhZdFE4Z0RWNU5MbFBydmozamFzUURTenBHYms3clJ1T0lkLW1hU2NXVEQ3R3BhTVdZaW1jTXhKelB3NmpWTTJNT2VWcm1ESDc5bHhYbnRfMFJuZ1RKOXVlZGtLcVFvNU11QkN5a3JBM0t6NENWdw?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-26T07:04:18+00:00",
+          "relevance": 9.0,
+          "summary": "The TrapDoor supply chain attack is actively exploiting npm, PyPI, and CratesIO to steal developer credentials, impacting sectors including Crypto, DeFi, Solana, and AI.",
+          "why_it_matters": "",
+          "topics": [
+            "cybersecurity",
+            "software_dev",
+            "blockchain_web3"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-004-copilot-article-9466-com",
+          "rank": 4,
+          "title": "隐藏的恶意“周报”！微软 Copilot 曝间接提示词注入漏洞风险 - article.9466.com",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIaHdqNXo1UjRqNzBUZ2lrVUhmZ3JLN3ZSMFFScnFoMEhWbTJib1lQRVVla2hxMnR3bE4yRjVsbFZnU1I3bGdMNE4xWlZRNGc?oc=5",
+          "source": "Google News (ZH)",
+          "language": "zh",
+          "published_at": "2026-05-26T06:40:00+00:00",
+          "relevance": 8.0,
+          "summary": "Microsoft Copilot is exposed to indirect prompt injection risks, potentially compromising code integrity through malicious prompts.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "ai_agent_security",
+            "cybersecurity",
+            "software_dev",
+            "tech_business"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-006-projectglasswing-ai",
+          "rank": 6,
+          "title": "ProjectGlasswing首月战报:AI 漏洞挖掘速度已经超越人类修补速度",
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS7801PrF8t1icFacmX_-RnprJ_FXJWaZH1qXa8Fplpd9hU9-HGP_ooegITaLfwFqfyai9cmndAbuvXzYMOzfOj0UdbF08slRv5dv9kum6MOKRJZh9te2zuZb07gw4KqCchvmejxAYeXCB2a8a1OD3O-K4BdpYObsTpF8QmRmD0Yp_qgQKCL1aYPakGTi-nMLIx8ZVO16qI72Wii3_-3qmMRFH6In5Ei3zg..&type=2&query=Project Glasswing&token=F4570D5A2FA8116D191F48AC89D131221AD8921C6A156FB0",
+          "source": "WeChat (WeChat)",
+          "language": "zh",
+          "published_at": "2026-05-24T23:08:31+00:00",
+          "relevance": 7.5,
+          "summary": "ProjectGlasswing reports that AI models are now identifying vulnerabilities faster than humans can patch them, highlighting the speed of AI development.",
+          "why_it_matters": "",
+          "topics": [
+            "llm",
+            "ai_vulnerability_discovery",
+            "cybersecurity"
+          ],
+          "takeaways": []
+        }
+      ]
+    },
+    {
+      "id": "agent-failures",
+      "title": "AI Agent Failures & Safety Incidents",
+      "articles": [
+        {
+          "id": "2026-05-26-003-ai",
+          "rank": 3,
+          "title": "AI安全周报:三大攻击面全面告急,你的编译器在偷偷开后门!",
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS7801PrF8t1ieYihPOocY_trJ_FXJWaZH1qXa8Fplpd9Ffq2noyX9eh1MLqwLtQ5w8f8l8LHukKB1060yCyISdahgWFdlAwu-ZJu-a_wX-weVG2J1BpzlTO-qkUWZT7YUzLm8qFYyL8v4s6qNWc0mr5RZ5clFdwqQGbeo9cOGjj2FjO4zvZO7uBmOY3o782SC11nEVmsUAT_rsPHgbM4iEVhlgeRt7bSzA..&type=2&query=%E5%B7%A5%E5%85%B7%E8%B0%83%E7%94%A8%E5%AE%89%E5%85%A8&token=F4560B982FA8116D191F48AC89D131221AD8921C6A156F8B",
+          "source": "WeChat (WeChat)",
+          "language": "zh",
+          "published_at": "2026-05-24T15:59:58+00:00",
+          "relevance": 8.5,
+          "summary": "AI security report warns of critical vulnerabilities across compiler backdoors, emphasizing the urgent need for fortified security measures.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_safety",
+            "ai_agents",
+            "ai_agent_security",
+            "mcp_security"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-005-detectify-debuts-mcp-server-to-let-ai-agents-find-and-fix-vu",
+          "rank": 5,
+          "title": "Detectify debuts MCP server to let AI agents find and fix vulnerabilities in real time - SiliconANGLE",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDZ4NW02Mm9EMVpBZElBVlROemFuQkpRQ0tlX0ZQQ3pucUxzNlFldUNDbEJUZmNTVVV5b2pRMFg3MDRQUjFFbWNqU2tnUWJWcjEtSHJCRXAwazNtTUhneHZuZ0QyUFlFRnJUTHM5U1I3UTd2M0RwcUpjQmZxaGRVWnh2OVdXQUY4WDVXWWRVVmJHci1NN3Z6SlB4SlRveEhsZVBpNUhFS3hPOF9tcHZsNzRjUQ?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-26T06:00:16+00:00",
+          "relevance": 8.0,
+          "summary": "Detectify's MCP server is launched to allow real-time vulnerability detection and resolution by AI agents, improving network security.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_agents",
+            "mcp_security"
+          ],
+          "takeaways": []
+        }
+      ]
+    },
+    {
+      "id": "major-players",
+      "title": "AI Security from Major Players",
+      "articles": [
+        {
+          "id": "2026-05-26-002-claude-mythos-1-leak-reveals-dangerous-ai-security-shift-tec",
+          "rank": 2,
+          "title": "Claude Mythos 1 Leak Reveals Dangerous AI Security Shift - Techgenyz",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXemlKM3hQdFJfN2lTcFVqR3BhYU1IYjVHdDY3aEExekRXQU44aTd2el91QUpSTXhwaEhKa2Q0ZUlWUVcxSXJHLVR1LV81Nks4ZWxTUXBURm8wdWpTdzl6cnhXb3FEZEY3U3VDakxn?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-25T19:13:03+00:00",
+          "relevance": 8.5,
+          "summary": "A leaked report suggests the Claude Mythos AI might pose a significant security risk, revealing a potential shift in the AI security paradigm.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "llm",
+            "ai_vulnerability_discovery"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-007-ibm-expands-ai-security-push-with-project-glasswing-eenews-e",
+          "rank": 7,
+          "title": "IBM expands AI security push with Project Glasswing ... - eeNews Europe",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHZXNUktSFF1X3RSYk5QY1VFdEJYbm5Xd1gwb3pMWmctc0R6T0JTUGlYTzBubHE4QTl3WXFRS01DQ1lKUy1aM1NMZDBCM3JBbUdwcE9YdG9MOHhCcnlMUkV4T01TMklvQk96NkNPdWtjNExSSGZFRnJEbFd4dHhZMkt6T21DcEVDa2FqRw?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-25T08:57:00+00:00",
+          "relevance": 7.5,
+          "summary": "IBM expands its AI security initiatives with the Project Glasswing, focusing on enhancing AI-driven cybersecurity capabilities.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "ai_vulnerability_discovery"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-010-ecb-summons-111-eurozone-banks-over-claude-mythos-cyber-risk",
+          "rank": 10,
+          "title": "ECB Summons 111 Eurozone Banks Over Claude Mythos Cyber Risks - Yellow.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1NNY3UtZlFyX2ZmX2plYU1FclhmWTkzYnFjUHJEdGpaUE9lY2tla2UyOTlpcjdzVGFsajJlNjJWaHRMTE9fZjE3MlVDeHcybW5Zdk1nY05hSEFsLVBHazZsQjRqSG1UaDJZVkpRdkZxU0pXTGNfb3MzSnAtOEdXa1VWVXFlWm8?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-25T07:24:37+00:00",
+          "relevance": 8.0,
+          "summary": "111 Eurozone banks are being evaluated by the ECB for Claude Mythos-induced cyber risks, highlighting the vulnerability of financial systems.",
+          "why_it_matters": "",
+          "topics": [
+            "llm",
+            "ai_vulnerability_discovery"
+          ],
+          "takeaways": []
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research & Regulation",
+      "articles": [
+        {
+          "id": "2026-05-26-008-poisoning-the-watchtower-prompt-injection-attacks-against-ll",
+          "rank": 8,
+          "title": "Poisoning the Watchtower: Prompt Injection Attacks Against LLM-Augmented Security Operations Through Adversarial Log Content",
+          "url": "https://arxiv.org/abs/2605.24421",
+          "source": "ArXiv cs.CR",
+          "language": "en",
+          "published_at": "2026-05-26T04:00:00+00:00",
+          "relevance": 8.5,
+          "summary": "Research highlights vulnerabilities in security operations LLMs due to adversarial logs carrying malicious instructions for prompt injection attacks.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "llm"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-009-sok-a-comprehensive-security-analysis-of-jailbreak-resilienc",
+          "rank": 9,
+          "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
+          "url": "https://arxiv.org/abs/2506.18543",
+          "source": "ArXiv cs.AI",
+          "language": "en",
+          "published_at": "2026-05-26T04:00:00+00:00",
+          "relevance": 8.0,
+          "summary": "A security analysis reveals weaknesses in jailbreak resilience among LLMs, focusing on emerging models like DeepSeek.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "llm",
+            "frontier_models"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-011-reflect-guard-enhancing-llm-safeguards-against-adversarial-p",
+          "rank": 11,
+          "title": "Reflect-Guard: Enhancing LLM Safeguards against Adversarial Prompts via Logical Self-Reflection",
+          "url": "https://arxiv.org/abs/2605.24834",
+          "source": "ArXiv cs.AI",
+          "language": "en",
+          "published_at": "2026-05-26T04:00:00+00:00",
+          "relevance": 7.5,
+          "summary": "Reflect-Guard enhances safety against adversarial prompts by endowing LLM safety classifiers with self-reflection abilities for improved robustness.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "llm",
+            "frontier_models"
+          ],
+          "takeaways": []
+        },
+        {
+          "id": "2026-05-26-012-security-in-the-fine-tuning-lifecycle-of-large-language-mode",
+          "rank": 12,
+          "title": "Security in the Fine-Tuning Lifecycle of Large Language Models: Threats, Defenses,Evaluation, and Future Directions",
+          "url": "https://arxiv.org/abs/2605.25073",
+          "source": "ArXiv cs.AI",
+          "language": "en",
+          "published_at": "2026-05-26T04:00:00+00:00",
+          "relevance": 7.5,
+          "summary": "Fine-tuning LLMs poses security risks through data poisoning and interface exploitation; this research proposes a comprehensive framework to evaluate such vulnerabilities.",
+          "why_it_matters": "",
+          "topics": [
+            "ai_security",
+            "llm"
+          ],
+          "takeaways": []
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "2026-05-26-001-trapdoor-supply-chain-attack-actively-exploiting-npm-pypi-an",
+      "rank": 1,
+      "title": "TrapDoor Supply Chain Attack Actively Exploiting npm, PyPI, and CratesIO to Steal Developer Credentials in Crypto, DeFi, Solana, and AI Sectors - Rescana",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVDh1UXlzbVY0bGdIOFl6amVwRTg3akI2SmdWWUNGWkJ0NkxSY3JEV0hONF9mMHNMSVB6bGxrdUR4WU1Uanc3d3Nfc3pPWnZmWnNEc0d6S0x4cWZnYzljT3FtNGpmdkhZRS1zV0VteEsyZEF1XzhZdFE4Z0RWNU5MbFBydmozamFzUURTenBHYms3clJ1T0lkLW1hU2NXVEQ3R3BhTVdZaW1jTXhKelB3NmpWTTJNT2VWcm1ESDc5bHhYbnRfMFJuZ1RKOXVlZGtLcVFvNU11QkN5a3JBM0t6NENWdw?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-26T07:04:18+00:00",
+      "relevance": 9.0,
+      "summary": "The TrapDoor supply chain attack is actively exploiting npm, PyPI, and CratesIO to steal developer credentials, impacting sectors including Crypto, DeFi, Solana, and AI.",
+      "why_it_matters": "",
+      "topics": [
+        "cybersecurity",
+        "software_dev",
+        "blockchain_web3"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-002-claude-mythos-1-leak-reveals-dangerous-ai-security-shift-tec",
+      "rank": 2,
+      "title": "Claude Mythos 1 Leak Reveals Dangerous AI Security Shift - Techgenyz",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXemlKM3hQdFJfN2lTcFVqR3BhYU1IYjVHdDY3aEExekRXQU44aTd2el91QUpSTXhwaEhKa2Q0ZUlWUVcxSXJHLVR1LV81Nks4ZWxTUXBURm8wdWpTdzl6cnhXb3FEZEY3U3VDakxn?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-25T19:13:03+00:00",
+      "relevance": 8.5,
+      "summary": "A leaked report suggests the Claude Mythos AI might pose a significant security risk, revealing a potential shift in the AI security paradigm.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "llm",
+        "ai_vulnerability_discovery"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-003-ai",
+      "rank": 3,
+      "title": "AI安全周报:三大攻击面全面告急,你的编译器在偷偷开后门!",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS7801PrF8t1ieYihPOocY_trJ_FXJWaZH1qXa8Fplpd9Ffq2noyX9eh1MLqwLtQ5w8f8l8LHukKB1060yCyISdahgWFdlAwu-ZJu-a_wX-weVG2J1BpzlTO-qkUWZT7YUzLm8qFYyL8v4s6qNWc0mr5RZ5clFdwqQGbeo9cOGjj2FjO4zvZO7uBmOY3o782SC11nEVmsUAT_rsPHgbM4iEVhlgeRt7bSzA..&type=2&query=%E5%B7%A5%E5%85%B7%E8%B0%83%E7%94%A8%E5%AE%89%E5%85%A8&token=F4560B982FA8116D191F48AC89D131221AD8921C6A156F8B",
+      "source": "WeChat (WeChat)",
+      "language": "zh",
+      "published_at": "2026-05-24T15:59:58+00:00",
+      "relevance": 8.5,
+      "summary": "AI security report warns of critical vulnerabilities across compiler backdoors, emphasizing the urgent need for fortified security measures.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_safety",
+        "ai_agents",
+        "ai_agent_security",
+        "mcp_security"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-004-copilot-article-9466-com",
+      "rank": 4,
+      "title": "隐藏的恶意“周报”！微软 Copilot 曝间接提示词注入漏洞风险 - article.9466.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIaHdqNXo1UjRqNzBUZ2lrVUhmZ3JLN3ZSMFFScnFoMEhWbTJib1lQRVVla2hxMnR3bE4yRjVsbFZnU1I3bGdMNE4xWlZRNGc?oc=5",
+      "source": "Google News (ZH)",
+      "language": "zh",
+      "published_at": "2026-05-26T06:40:00+00:00",
+      "relevance": 8.0,
+      "summary": "Microsoft Copilot is exposed to indirect prompt injection risks, potentially compromising code integrity through malicious prompts.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "ai_agent_security",
+        "cybersecurity",
+        "software_dev",
+        "tech_business"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-005-detectify-debuts-mcp-server-to-let-ai-agents-find-and-fix-vu",
+      "rank": 5,
+      "title": "Detectify debuts MCP server to let AI agents find and fix vulnerabilities in real time - SiliconANGLE",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDZ4NW02Mm9EMVpBZElBVlROemFuQkpRQ0tlX0ZQQ3pucUxzNlFldUNDbEJUZmNTVVV5b2pRMFg3MDRQUjFFbWNqU2tnUWJWcjEtSHJCRXAwazNtTUhneHZuZ0QyUFlFRnJUTHM5U1I3UTd2M0RwcUpjQmZxaGRVWnh2OVdXQUY4WDVXWWRVVmJHci1NN3Z6SlB4SlRveEhsZVBpNUhFS3hPOF9tcHZsNzRjUQ?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-26T06:00:16+00:00",
+      "relevance": 8.0,
+      "summary": "Detectify's MCP server is launched to allow real-time vulnerability detection and resolution by AI agents, improving network security.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_agents",
+        "mcp_security"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-006-projectglasswing-ai",
+      "rank": 6,
+      "title": "ProjectGlasswing首月战报:AI 漏洞挖掘速度已经超越人类修补速度",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS7801PrF8t1icFacmX_-RnprJ_FXJWaZH1qXa8Fplpd9hU9-HGP_ooegITaLfwFqfyai9cmndAbuvXzYMOzfOj0UdbF08slRv5dv9kum6MOKRJZh9te2zuZb07gw4KqCchvmejxAYeXCB2a8a1OD3O-K4BdpYObsTpF8QmRmD0Yp_qgQKCL1aYPakGTi-nMLIx8ZVO16qI72Wii3_-3qmMRFH6In5Ei3zg..&type=2&query=Project Glasswing&token=F4570D5A2FA8116D191F48AC89D131221AD8921C6A156FB0",
+      "source": "WeChat (WeChat)",
+      "language": "zh",
+      "published_at": "2026-05-24T23:08:31+00:00",
+      "relevance": 7.5,
+      "summary": "ProjectGlasswing reports that AI models are now identifying vulnerabilities faster than humans can patch them, highlighting the speed of AI development.",
+      "why_it_matters": "",
+      "topics": [
+        "llm",
+        "ai_vulnerability_discovery",
+        "cybersecurity"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-007-ibm-expands-ai-security-push-with-project-glasswing-eenews-e",
+      "rank": 7,
+      "title": "IBM expands AI security push with Project Glasswing ... - eeNews Europe",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHZXNUktSFF1X3RSYk5QY1VFdEJYbm5Xd1gwb3pMWmctc0R6T0JTUGlYTzBubHE4QTl3WXFRS01DQ1lKUy1aM1NMZDBCM3JBbUdwcE9YdG9MOHhCcnlMUkV4T01TMklvQk96NkNPdWtjNExSSGZFRnJEbFd4dHhZMkt6T21DcEVDa2FqRw?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-25T08:57:00+00:00",
+      "relevance": 7.5,
+      "summary": "IBM expands its AI security initiatives with the Project Glasswing, focusing on enhancing AI-driven cybersecurity capabilities.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "ai_vulnerability_discovery"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-008-poisoning-the-watchtower-prompt-injection-attacks-against-ll",
+      "rank": 8,
+      "title": "Poisoning the Watchtower: Prompt Injection Attacks Against LLM-Augmented Security Operations Through Adversarial Log Content",
+      "url": "https://arxiv.org/abs/2605.24421",
+      "source": "ArXiv cs.CR",
+      "language": "en",
+      "published_at": "2026-05-26T04:00:00+00:00",
+      "relevance": 8.5,
+      "summary": "Research highlights vulnerabilities in security operations LLMs due to adversarial logs carrying malicious instructions for prompt injection attacks.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "llm"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-009-sok-a-comprehensive-security-analysis-of-jailbreak-resilienc",
+      "rank": 9,
+      "title": "SoK: A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models",
+      "url": "https://arxiv.org/abs/2506.18543",
+      "source": "ArXiv cs.AI",
+      "language": "en",
+      "published_at": "2026-05-26T04:00:00+00:00",
+      "relevance": 8.0,
+      "summary": "A security analysis reveals weaknesses in jailbreak resilience among LLMs, focusing on emerging models like DeepSeek.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "llm",
+        "frontier_models"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-010-ecb-summons-111-eurozone-banks-over-claude-mythos-cyber-risk",
+      "rank": 10,
+      "title": "ECB Summons 111 Eurozone Banks Over Claude Mythos Cyber Risks - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1NNY3UtZlFyX2ZmX2plYU1FclhmWTkzYnFjUHJEdGpaUE9lY2tla2UyOTlpcjdzVGFsajJlNjJWaHRMTE9fZjE3MlVDeHcybW5Zdk1nY05hSEFsLVBHazZsQjRqSG1UaDJZVkpRdkZxU0pXTGNfb3MzSnAtOEdXa1VWVXFlWm8?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-25T07:24:37+00:00",
+      "relevance": 8.0,
+      "summary": "111 Eurozone banks are being evaluated by the ECB for Claude Mythos-induced cyber risks, highlighting the vulnerability of financial systems.",
+      "why_it_matters": "",
+      "topics": [
+        "llm",
+        "ai_vulnerability_discovery"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-011-reflect-guard-enhancing-llm-safeguards-against-adversarial-p",
+      "rank": 11,
+      "title": "Reflect-Guard: Enhancing LLM Safeguards against Adversarial Prompts via Logical Self-Reflection",
+      "url": "https://arxiv.org/abs/2605.24834",
+      "source": "ArXiv cs.AI",
+      "language": "en",
+      "published_at": "2026-05-26T04:00:00+00:00",
+      "relevance": 7.5,
+      "summary": "Reflect-Guard enhances safety against adversarial prompts by endowing LLM safety classifiers with self-reflection abilities for improved robustness.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "llm",
+        "frontier_models"
+      ],
+      "takeaways": []
+    },
+    {
+      "id": "2026-05-26-012-security-in-the-fine-tuning-lifecycle-of-large-language-mode",
+      "rank": 12,
+      "title": "Security in the Fine-Tuning Lifecycle of Large Language Models: Threats, Defenses,Evaluation, and Future Directions",
+      "url": "https://arxiv.org/abs/2605.25073",
+      "source": "ArXiv cs.AI",
+      "language": "en",
+      "published_at": "2026-05-26T04:00:00+00:00",
+      "relevance": 7.5,
+      "summary": "Fine-tuning LLMs poses security risks through data poisoning and interface exploitation; this research proposes a comprehensive framework to evaluate such vulnerabilities.",
+      "why_it_matters": "",
+      "topics": [
+        "ai_security",
+        "llm"
+      ],
+      "takeaways": []
+    }
+  ]
+}
