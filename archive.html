@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>历史归档 - AI Safety News Digest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { colors: { darkBg: '#060913' } } }
+    }
+  </script>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</head>
+<body class="bg-darkBg text-slate-200 min-h-screen antialiased">
+  <nav class="border-b border-white/5 bg-darkBg/60 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-lg text-white font-bold text-sm tracking-wider">α★</div>
+        <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-slate-200 to-slate-500 bg-clip-text text-transparent">
+          AI Safety News Digest
+        </span>
+      </a>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-8">
+    <a href="index.html" class="inline-flex items-center text-sm text-slate-500 hover:text-blue-400 transition">← 返回首页</a>
+
+    <div>
+      <h1 class="text-3xl font-bold text-slate-200">历史归档</h1>
+      <p class="mt-2 text-slate-500">每日 pipeline 生成的 JSON 归档列表。</p>
+    </div>
+
+    <div id="archive-list" class="space-y-3">
+      <div class="bg-white/[0.02] border border-white/10 rounded-xl p-5 text-slate-400">Loading...</div>
+    </div>
+  </main>
+
+  <script>
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    async function loadArchive() {
+      const root = document.querySelector("#archive-list");
+
+      try {
+        const res = await fetch("./data/archive.json?ts=" + Date.now());
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const items = await res.json();
+
+        if (!items.length) {
+          root.innerHTML = `<div class="bg-white/[0.02] border border-white/10 rounded-xl p-5 text-slate-400">暂无归档。</div>`;
+          return;
+        }
+
+        root.innerHTML = items.map(item => `
+          <a href="${escapeHtml(item.file)}" target="_blank" rel="noopener noreferrer" class="block bg-white/[0.02] border border-white/10 rounded-xl p-5 hover:bg-white/[0.04] hover:border-blue-500/30 transition">
+            <div class="flex items-center justify-between gap-4">
+              <div>
+                <div class="text-lg font-semibold text-slate-200">${escapeHtml(item.date)}</div>
+                <div class="text-sm text-slate-500 font-mono">${escapeHtml(item.generated_at || "")}</div>
+              </div>
+              <div class="text-sm text-slate-400 font-mono">${escapeHtml(item.top_pick)} items ↗</div>
+            </div>
+          </a>
+        `).join("");
+      } catch (err) {
+        root.innerHTML = `
+          <div class="bg-red-500/5 border border-red-500/20 rounded-xl p-6 text-red-300">
+            无法加载 <code>data/archive.json</code>。
+            <div class="mt-2 text-xs font-mono text-red-300/70">${escapeHtml(err.message)}</div>
+          </div>
+        `;
+      }
+    }
+
+    loadArchive();
+  </script>
+</body>
+</html>
