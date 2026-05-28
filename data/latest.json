@@ -1,12 +1,12 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-28T09:26:42.293111+00:00",
+  "generated_at": "2026-05-28T10:02:53.726672+00:00",
   "stats": {
-    "fetched": 1541,
-    "freshness_filtered": 1166,
-    "deduplicated": 975,
+    "fetched": 1597,
+    "freshness_filtered": 1222,
+    "deduplicated": 1031,
     "analyzed": 80,
-    "top_pick": 14
+    "top_pick": 10
   },
   "sections": [
     {
@@ -17,122 +17,145 @@
           "id": "2026-05-28-001-google-ai",
           "rank": 1,
           "title": "Google 安全新发现:首个AI生成的零日漏洞利用的安全新挑战",
-          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWBa2rHsE9RsvcNpw1jDjWIlqXa8Fplpd9k1cncyVFGZBGPuK1pu78oya9zbLzWoyc1sTCVCaEFmu0ofQMdqhAeVA-vmDF-kGl4vON1KWwZrNOUxXADaJfa-QRx93HJozMPq6v5gZ51RdZkOXiyVZcS0pd-3jHmF3HrI4Z9fmAdS_OmQSfyQ_q-CK5YgLspeO9PY90Mj1R-0UHpHkoPMgL3A..&type=2&query=AI%E7%94%9F%E6%88%90%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8&token=03FF514DB210A8D6A0A7F37C9F341471A17CD77A6A180939",
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWa3eBCqkEEHrcNpw1jDjWIlqXa8Fplpd9k1cncyVFGZBGPuK1pu78oya9zbLzWoyc1sTCVCaEFmu0ofQMdqhAeVA-vmDF-kGl4vON1KWwZrNOUxXADaJfaxu0ntd7rERBmoBgbSMaUBJfevxhB_AQy0U4SiGry_Lc8dDQ2eUzv4l3fWn7V2c8jh50ZLW-W4IgS1p-W-F9PQUYJSSFPgfogQ..&type=2&query=AI%E7%94%9F%E6%88%90%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8&token=043506A5866DD4AADDDB8F0063C8B284DD6A9F7C6A181193",
           "source": "WeChat (WeChat)",
           "language": "zh",
           "published_at": "2026-05-27T04:49:26+00:00",
-          "relevance": 10.0,
-          "summary": "Google security team has discovered the first case of AI-generated zero-day exploit used in a real-world attack chain.",
-          "detailed_summary": "",
-          "why_it_matters": "此发现标志着 AI 生成的漏洞攻击从理论进入实际应用阶段，对 AI 安全防护策略提出了更高要求。",
+          "relevance": 9.0,
+          "summary": "Google researchers discovered the first AI-generated zero-day exploit, adding a new dimension to cybersecurity threats.",
+          "detailed_summary": "谷歌安全团队发现首个AI生成的零日漏洞被用于真实的攻击链中，这标志着人工智能在网络安全领域带来了新的挑战和威胁。该消息警醒了安全团队，AI生成的攻击方式增加了检测和防御的复杂性。",
+          "why_it_matters": "AI生成的零日漏洞利用重塑了攻击者的能力，增加网络安全的复杂性。",
           "topics": [
             "ai_vulnerability_discovery",
             "cybersecurity",
             "tech_business"
           ],
-          "takeaways": [],
-          "recommended_action": ""
-        },
-        {
-          "id": "2026-05-28-002-badhost-vulnerability-exposes-millions-of-ai-agents-and-serv",
-          "rank": 2,
-          "title": "BadHost Vulnerability Exposes Millions of AI Agents and Servers - incrypted",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ001TDBuWTh4bmdOVWM4aUktMXB6WmN4azJNeWRtTEpwMVJwcjF5M3NhbDBwdUZoMURSM2FoQXZaU3ZtRGc3ZklRQ3BYM29aTm1BUy1NY0JZSS1OdlVwS0Q2dXBYaVdsSWNBX0xNbzc?oc=5",
-          "source": "Google News (EN)",
-          "language": "en",
-          "published_at": "2026-05-27T15:12:00+00:00",
-          "relevance": 9.0,
-          "summary": "The BadHost vulnerability potentially exposes millions of AI agents and servers to breaches.",
-          "detailed_summary": "",
-          "why_it_matters": "BadHost 漏洞可以大规模影响到 AI 系统的基础设施安全。",
-          "topics": [
-            "ai_agents",
-            "cybersecurity"
+          "takeaways": [
+            "AI生成攻击提高了漏洞利用程度，需加强监测。",
+            "安全团队需更新防御策略以应对新型AI威胁。",
+            "与AI生成漏洞相关的攻击可能大幅增加。"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "recommended_action": "建议立即跟踪相关漏洞利用的技术细节，加强AI安全工具的研发。"
         },
         {
-          "id": "2026-05-28-003-malicious-npm-package-stole-files-from-claude-ai-user-direct",
-          "rank": 3,
+          "id": "2026-05-28-002-malicious-npm-package-stole-files-from-claude-ai-user-direct",
+          "rank": 2,
           "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
           "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
           "source": "The Hacker News",
           "language": "en",
           "published_at": "2026-05-27T15:44:29+00:00",
-          "relevance": 9.0,
-          "summary": "A malicious npm package was found stealing files from the user directory of the Claude AI tool.",
-          "detailed_summary": "",
-          "why_it_matters": "恶意软件包指向了软件供应链中潜在的安全威胁，提高了对 AI 工具的安全监控要求。",
+          "relevance": 8.5,
+          "summary": "A malicious npm package was discovered stealing files from Anthropic's Claude AI tool, posing a serious security risk.",
+          "detailed_summary": "安全研究人员在npm注册表中发现了一个名为“mouse5212-super-formatter”的恶意包，该包通过访问Anthropic的Claude AI工具的特定目录窃取数据。这显示了开源包中的安全漏洞对AI系统带来的潜在威胁。",
+          "why_it_matters": "此类事件提醒我们AI工具使用的开源依赖可能带来潜在的数据泄露风险。",
           "topics": [
             "llm",
             "cybersecurity",
             "software_dev",
             "tech_business"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "恶意软件可利用AI工具的文件系统访问权限。",
+            "需加强对开源依赖包的安全审计。",
+            "监控AI工具与数据存储交互可提高安全性。"
+          ],
+          "recommended_action": "建议加强对npm及其他开源依赖的安全监控和审核。"
         },
         {
-          "id": "2026-05-28-004-ai",
-          "rank": 4,
+          "id": "2026-05-28-003-badhost-vulnerability-exposes-millions-of-ai-agents-and-serv",
+          "rank": 3,
+          "title": "BadHost Vulnerability Exposes Millions of AI Agents and Servers - incrypted",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ001TDBuWTh4bmdOVWM4aUktMXB6WmN4azJNeWRtTEpwMVJwcjF5M3NhbDBwdUZoMURSM2FoQXZaU3ZtRGc3ZklRQ3BYM29aTm1BUy1NY0JZSS1OdlVwS0Q2dXBYaVdsSWNBX0xNbzc?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-27T15:12:00+00:00",
+          "relevance": 8.5,
+          "summary": "The BadHost vulnerability puts millions of AI agents and servers at risk of exposure to unwanted access.",
+          "detailed_summary": "BadHost漏洞使得数百万AI智能体和服务器面临敏感信息暴露风险。攻击者可以利用该漏洞进入服务器端，获取未经授权的敏感数据访问权限。此事件提示AI系统基础架构中的严重隐患。",
+          "why_it_matters": "这一漏洞暴露了AI智能体系统潜在的安全威胁，需采取紧急措施修复。",
+          "topics": [
+            "ai_agents",
+            "cybersecurity"
+          ],
+          "takeaways": [
+            "BadHost漏洞暴露系统敏感数据。",
+            "服务器端点需加强访问控制机制。",
+            "应及时修复以防止恶意利用。"
+          ],
+          "recommended_action": "建议立即评估受影响系统并采取必要的修复措施。"
+        },
+        {
+          "id": "2026-05-28-005-ai",
+          "rank": 5,
           "title": "AI助手类应用通杀漏洞：间接提示注入可窃取企业敏感数据 - 安全内参",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94MVJERGRybTlmWnRfY1ZQRVE5UnBzUElOVUFMTWlnalJmU3k0VW5OOElzLXNHTzBMaFVFV25XbmNnUmNweGpkR0d5YVNYQQ?oc=5",
           "source": "Google News (ZH)",
           "language": "zh",
           "published_at": "2026-05-27T07:32:21+00:00",
-          "relevance": 8.5,
-          "summary": "AI assistant applications face a vulnerability where prompt injection can lead to data breaches by stealing enterprise data.",
-          "detailed_summary": "",
-          "why_it_matters": "AI 助手应用的提示注入漏洞构成了数据泄露的重大安全隐患。",
+          "relevance": 8.0,
+          "summary": "An AI assistant vulnerability enables indirect prompt injection to steal sensitive enterprise data, posing a significant threat.",
+          "detailed_summary": "这类AI助手被发现存在间接提示注入漏洞，可以用于窃取企业敏感数据，表明AI工具在企业安全中存在尚未解决的风险。这款漏洞的出现促使企业重新审视其AI工具的安全防护能力。",
+          "why_it_matters": "AI助手工具的安全漏洞对企业数据构成了显著威胁，需立即修护。",
           "topics": [
             "ai_security",
             "ai_agents",
             "cybersecurity"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "AI助手应用存在间接提示注入风险。",
+            "敏感数据亟需更严密的保护措施。",
+            "企业需强化AI工具的安全防护。"
+          ],
+          "recommended_action": "建议立即排查相关AI工具的安全漏洞，并增加数据保护措施。"
         },
         {
-          "id": "2026-05-28-011-mythos",
-          "rank": 11,
+          "id": "2026-05-28-008-mythos",
+          "rank": 8,
           "title": "＂神话＂兑现 Mythos模型发现超万高危漏洞",
-          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWPwT8YBpKvQLcNpw1jDjWIlqXa8Fplpd97_0HOJ1-E7woS96CfDfSX453VxiPrV7GXsYh8Hr6azWE51Ch5jpFY1aO1nkdUvaNt0CGgCm8mOn3fusfuJJq2tj8blI9RbOU6asrXn4G1P_sI3j3h3kFzFfq5CKtokyiB1RQuqLy-cSxt-VeiLIGy9ZdbKkQVdyQpjW4zl4SPxD6zvkPgoArRQ..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=03FF18A3B210A8D6A0A7F37C9F341471A17CD77A6A180930",
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWMrnFNg7VRWPcNpw1jDjWIlqXa8Fplpd97_0HOJ1-E7woS96CfDfSX453VxiPrV7GXsYh8Hr6azWE51Ch5jpFY1aO1nkdUvaNt0CGgCm8mOn3fusfuJJq2ofrm-H3979URyiaJj4FpVrjRURoK-02vx_h10e7-88htG7wXUaTmLaJhsWwjc1PT3I7koe5ng_jYN15irOQgyLf3q8uRDTfkw..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=0434D1F4866DD4AADDDB8F0063C8B284DD6A9F7C6A18118A",
           "source": "WeChat (WeChat)",
           "language": "zh",
           "published_at": "2026-05-27T23:30:31+00:00",
-          "relevance": 7.5,
-          "summary": "Project Glasswing enables detection of over 10,000 high-risk vulnerabilities using Claude Mythos technology.",
-          "detailed_summary": "",
-          "why_it_matters": "这些突破性发现标志着 AI 在软件安全扫描领域的领导地位，并推动行业标准提高。",
+          "relevance": 8.0,
+          "summary": "Anthropic's Mythos model collaboration discovers significant vulnerabilities in key software among partners.",
+          "detailed_summary": "Anthropic项目在与五十家合作伙伴的关键软件中发现了超万的高危漏洞，显示了Claude Mythos模型在大规模协作中的显著作用。这为提高漏洞检测效率带来新的视角，但也显现了安全行业对补丁速度的挑战。",
+          "why_it_matters": "合作团队运用AI模型发现大量漏洞，为提升安全检测带来契机。",
           "topics": [
             "llm",
             "ai_vulnerability_discovery",
             "cybersecurity"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "AI模型协作发现大量关键漏洞。",
+            "提高漏洞检测效率，但补丁管理须加速。",
+            "安全行业需应对新检测方法的挑战。"
+          ],
+          "recommended_action": "建议关注该项目的技术应用，以评估其在漏洞管理中的实际效益。"
         },
         {
-          "id": "2026-05-28-012-article",
-          "rank": 12,
-          "title": "多智能体大模型驱动自动化漏洞发现系统",
-          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWPwT8YBpKvQLcNpw1jDjWIlqXa8Fplpd9_wG02uf_oHilo_S_yq2KpD03CvOjvEGLNb37aAv8wCZMtMhB_OiCnadH-TQbYr7RAYJw0FxCC7uJFctCi62zBjOQn81ctO7q0a84CJfRH4nUPETMSeervgx7V-lnYXYZFGkaZ2kfSVeJCUoaeLwkKeZhcq_pj_8rElxTa-fsdxzy08OLTBhW0A..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=03FF18A3B210A8D6A0A7F37C9F341471A17CD77A6A180930",
-          "source": "WeChat (WeChat)",
-          "language": "zh",
-          "published_at": "2026-05-27T23:04:04+00:00",
+          "id": "2026-05-28-010-ecb-tells-banks-to-invest-in-cybersecurity-due-to-ai-risk-wh",
+          "rank": 10,
+          "title": "ECB tells banks to invest in cybersecurity due to AI risk: What Eurozone firms must do now - Blockchain Council",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT28wcUxJVXhuSDdLdjZGWUdDUUc2ZmpkRFdLUV92OTRFclhCNV9ZWU5RY01qclhHZUF3ZVdUaE94R2tNaDVsbGZQcUZCNjhHTURuZkp3TnNKWDJBZVNqZXRqZXhjR2lfUU4xTUdaTnBxd2tVUkR1X19NUS1rWmVUZThHM21wdEJUVDQ0dlZR?oc=5",
+          "source": "Google News (EN)",
+          "language": "en",
+          "published_at": "2026-05-27T16:39:59+00:00",
           "relevance": 7.5,
-          "summary": "A multi-agent model automates vulnerability discovery, offering transformative solutions for software security.",
-          "detailed_summary": "",
-          "why_it_matters": "这项技术革新显示了 AI 在安全自动化领域的巨大潜力，可能改变未来漏洞检测的方式。",
+          "summary": "ECB advises banks to enhance cybersecurity investments due to rising AI-related risks in the Eurozone.",
+          "detailed_summary": "欧央行为应对AI带来的风险，建议银行加大网络安全投资。这表明随着AI技术的广泛应用，金融机构面临新的安全挑战，需提升安全防护措施以确保金融系统的可靠性和稳定性。",
+          "why_it_matters": "AI风险对金融安全构成了新威胁，需提前布局全面的技术保护措施。",
           "topics": [
-            "llm",
-            "ai_agents",
-            "ai_vulnerability_discovery",
-            "cybersecurity"
+            "ai_safety",
+            "cybersecurity",
+            "blockchain_web3"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "AI风险增加金融系统安全压力。",
+            "央行倡导加大安全投资以应对挑战。",
+            "需提升金融机构的安全防护能力。"
+          ],
+          "recommended_action": "建议金融机构审视并提高自身的网络安全投资和保护措施。"
         }
       ]
     },
@@ -141,42 +164,50 @@
       "title": "AI Agent Failures & Safety Incidents",
       "articles": [
         {
-          "id": "2026-05-28-005-mcp-security-flaws-are-turning-ai-infrastructure-into-a-supp",
-          "rank": 5,
+          "id": "2026-05-28-004-mcp-security-flaws-are-turning-ai-infrastructure-into-a-supp",
+          "rank": 4,
           "title": "MCP security flaws are turning AI infrastructure into a supply-chain risk - Startup Fortune",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORlVDallFT3RkRDF0Y3ZJZjk5ZTcyek4xd3RfOW1yeG9TUGdVckFPMGdpUVg3SnQ4Y3NWWTV2VVJDRnFHQVU5a0htRER3cXpOSnllMGVSb0plUzVwQVNYRVRWR1d1TGdMSjdDQURpeTY0S0xFVzVRYXp0MFhpVUIyYU1GSzhXbHBxekozWnB5emZxWGhQaEJJUHp1M0pMTm1zNDFN?oc=5",
           "source": "Google News (EN)",
           "language": "en",
           "published_at": "2026-05-28T02:03:20+00:00",
           "relevance": 8.0,
-          "summary": "Supply-chain risks in AI infrastructure are exacerbated by MCP security flaws.",
-          "detailed_summary": "",
-          "why_it_matters": "这些安全漏洞可能引发更广泛的供应链攻击，影响多个企业级系统。",
+          "summary": "MCP vulnerabilities pose significant supply-chain risks for AI infrastructures, necessitating urgent countermeasures.",
+          "detailed_summary": "MCP系统中的安全漏洞对AI基础设施构成了严重的供应链风险，包括可能导致的恶意代码注入和数据泄露。这要求立即采取措施，以加强对MCP相关组件的安全防护。",
+          "why_it_matters": "此漏洞显示AI供应链中的潜在风险，需及早防范。",
           "topics": [
             "ai_agents",
             "mcp_security"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "MCP漏洞提升AI基础设施安全风险。",
+            "需加强供应链组件的安全审查。",
+            "部署安全措施以避免恶意利用。"
+          ],
+          "recommended_action": "建议立即进行MCP系统安全审计，并落实防御措施。"
         },
         {
-          "id": "2026-05-28-006-xage-security-unlocks-jailbreak-proof-ai-agent-autonomy-with",
+          "id": "2026-05-28-006-ai",
           "rank": 6,
-          "title": "Xage Security Unlocks Jailbreak-proof AI Agent Autonomy with End-to-End Visibility and Control - GlobeNewswire",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRXZCV2E5RjVXOG5xZHI0Z0UzOGw3bHduZnkxbU5kOEF2VllubGUzOERqYUhVUUJ3T2tYNUtJXzNoRy1tam1vQ052WERrSVd0RExwMlFLblhwZkMyYVFQSjNIeEJzNFFtR1hmMGJkNzVuLTRsYXdrOUVsZjhvTzVEaUJVUjZFVk9pZDFmTlVWRG9zakpQemh0Q1FxRnlKNGxWNG9Hc2lXQzRnRkV2SUZvcHZqZDFubzViVktscEhKUmVtQjlxbVBmQWxPZ0ZGWEVmRGhzazhCaW55U2VndHNkR0E1Z3VYLXJIbHZHay12a3RzdHpuTTEyc1R3?oc=5",
-          "source": "Google News (EN)",
-          "language": "en",
-          "published_at": "2026-05-27T13:00:00+00:00",
-          "relevance": 7.5,
-          "summary": "Xage Security introduces a jailbreak-proof AI agent system ensuring end-to-end security and control.",
-          "detailed_summary": "",
-          "why_it_matters": "此系统代表了 AI 代理系统安全性的提升，能防止越狱及潜在的恶意行动。",
+          "title": "当AI自主操作浏览器,企业安全正迎来全新挑战",
+          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZW36_9-jxUM1bcNpw1jDjWIlqXa8Fplpd9SHDzjphtKvqtytAr9_tmy01sGTz2dnDT-s1kyOi4szpQFjClWzWsxfzewQEIAi6rjg1QrRKJHu4telugQgnwhZR8feMFBNNmUcmeMOWy78XELYg3lTlu7Gev2Qkg1UuZAL3tcUl5-PUxrHr_qmhuOJvC2Mh_JmqLnyCw0v3xUDHf3q8uRDTfkw..&type=2&query=AI%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8&token=043560DA866DD4AADDDB8F0063C8B284DD6A9F7C6A1811A3",
+          "source": "WeChat (WeChat)",
+          "language": "zh",
+          "published_at": "2026-05-27T04:01:51+00:00",
+          "relevance": 6.5,
+          "summary": "The proliferation of AI browser agents raises new security challenges, triggering concerns among security researchers.",
+          "detailed_summary": "随着AI浏览器代理工具的流行，企业安全面临新的风险挑战。研究发现AI代理可能在浏览器环境中引发潜在的安全隐患，例如未经授权的数据访问和操作失误，提示管理中需引入更严格的控制机制。",
+          "why_it_matters": "AI代理工具的安全隐患表明企业需重新评估和强化安全管理措施。",
           "topics": [
-            "ai_security",
-            "ai_agents"
+            "ai_agents",
+            "ai_agent_security"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "takeaways": [
+            "AI代理可能在浏览器中引发安全风险。",
+            "需提升对AI代理工具的权限管理。",
+            "严格的控制机制可以增强系统安全。"
+          ],
+          "recommended_action": "建议尽快评估使用AI代理工具的安全性，并加强监管。"
         },
         {
           "id": "2026-05-28-007-nudge-security-becomes-the-first-ai-security-solution-to-dis",
@@ -186,60 +217,20 @@
           "source": "Google News (EN)",
           "language": "en",
           "published_at": "2026-05-27T12:00:00+00:00",
-          "relevance": 7.5,
-          "summary": "Nudge Security introduces the first AI security solution to discover shadow AI agents beyond APIs.",
-          "detailed_summary": "",
-          "why_it_matters": "这为企业提升对影子 AI 代理的安全管理，尤其是在 API 之外的部分，提供了新的解决方案。",
+          "relevance": 8.5,
+          "summary": "Nudge Security's new AI solution discovers shadow AI agents beyond API reach, enhancing detection capabilities.",
+          "detailed_summary": "Nudge Security开发出首个能够识别超出API范围的影子AI智能体的安全解决方案，增强了检测未知AI组件的能力。这提高了对动态AI系统内隐形威胁的感知和应对能力，为企业提供更全面的安全保障。",
+          "why_it_matters": "揭示和管理影子AI智能体进程，这对AI安全提出了更高要求。",
           "topics": [
             "ai_security",
             "ai_agents"
           ],
-          "takeaways": [],
-          "recommended_action": ""
-        },
-        {
-          "id": "2026-05-28-009-ai",
-          "rank": 9,
-          "title": "当AI自主操作浏览器,企业安全正迎来全新挑战",
-          "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWzHBRKLdIifPcNpw1jDjWIlqXa8Fplpd9SHDzjphtKvqtytAr9_tmy01sGTz2dnDT-s1kyOi4szpQFjClWzWsxfzewQEIAi6rjg1QrRKJHu4telugQgnwhWUG-j0-wvUq85S5DEuzYRhiONbPowLZUurnypay_ZrW7HHZBkmgTpGN5fAfP_diefQxLnz1rVNgFsyikrm8TS8tPujwwRB2Pw..&type=2&query=AI%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8&token=03FFAE7BB210A8D6A0A7F37C9F341471A17CD77A6A180949",
-          "source": "WeChat (WeChat)",
-          "language": "zh",
-          "published_at": "2026-05-27T04:01:51+00:00",
-          "relevance": 8.0,
-          "summary": "AI browser agents introduce new security challenges as their use becomes widespread.",
-          "detailed_summary": "",
-          "why_it_matters": "AI 浏览器代理的普及对安全团队提出了新的挑战，需要重新审视和调整安全策略。",
-          "topics": [
-            "ai_agents",
-            "ai_agent_security"
+          "takeaways": [
+            "Nudge提升了对未知AI智能体的检测能力。",
+            "将增强企业对AI系统中隐形威胁的管理。",
+            "提供全面的安全检测和响应能力。"
           ],
-          "takeaways": [],
-          "recommended_action": ""
-        }
-      ]
-    },
-    {
-      "id": "major-players",
-      "title": "AI Security from Major Players",
-      "articles": [
-        {
-          "id": "2026-05-28-008-champion-hacker-says-claude-mythos-could-soon-outpace-top-ha",
-          "rank": 8,
-          "title": "Champion Hacker Says Claude Mythos Could Soon Outpace Top Hackers - Yellow.com",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mX09EZEtYUW5mVlRFNGFqUUt4R0dVT1hOb0prdEFydDMwclJyUWRheEFrSDNFU2t5UTRMVzFBZEV5WUFxZlAyV1pIMHdEUlRsRHUwYzlPQnN1YUxoeFBib096N3liY3FL?oc=5",
-          "source": "Google News (EN)",
-          "language": "en",
-          "published_at": "2026-05-27T06:49:05+00:00",
-          "relevance": 5.0,
-          "summary": "Claude Mythos AI model could potentially surpass human hackers in effectiveness, states expert.",
-          "detailed_summary": "",
-          "why_it_matters": "AI 技术在黑客领域的应用将改变现有的网络安全对抗格局。",
-          "topics": [
-            "llm",
-            "ai_vulnerability_discovery"
-          ],
-          "takeaways": [],
-          "recommended_action": ""
+          "recommended_action": "建议引入该解决方案以加强组织AI系统的全面安全监控。"
         }
       ]
     },
@@ -248,64 +239,27 @@
       "title": "Research & Regulation",
       "articles": [
         {
-          "id": "2026-05-28-010-technical-report-exploring-the-emerging-threats-of-the-agent",
-          "rank": 10,
-          "title": "Technical Report: Exploring the Emerging Threats of the Agent Skill Ecosystem",
-          "url": "https://arxiv.org/abs/2605.28588",
+          "id": "2026-05-28-009-craft-circuit-guided-refusal-feature-selection-via-cross-lay",
+          "rank": 9,
+          "title": "CRaFT: Circuit-Guided Refusal Feature Selection via Cross-Layer Transcoders",
+          "url": "https://arxiv.org/abs/2604.01604",
           "source": "ArXiv cs.AI",
           "language": "en",
           "published_at": "2026-05-28T04:00:00+00:00",
           "relevance": 7.5,
-          "summary": "A technical report finds significant malicious payloads in AI agent skills, urging security improvements.",
-          "detailed_summary": "",
-          "why_it_matters": "这份报告揭示了 AI 代理技能市场存在的安全漏洞和潜在威胁。",
+          "summary": "CRaFT framework unveils a cross-layer method to understand refusal features in LLMs, enhancing model safety.",
+          "detailed_summary": "CRaFT框架揭示了一种跨层次方法，分析大型语言模型中的拒绝特征，提升了模型的安全性。这一研究使得模型的安全分析更加精细化，为提高拒绝危险请求的系统能力提供了方法论参考。",
+          "why_it_matters": "揭示了理解和提高LLM安全性的新机制，有助于完善安全防护能力。",
           "topics": [
             "ai_security",
-            "ai_agents",
-            "ai_agent_security"
-          ],
-          "takeaways": [],
-          "recommended_action": ""
-        },
-        {
-          "id": "2026-05-28-013-silentretrieval-hijacking-retrieval-augmented-generation-via",
-          "rank": 13,
-          "title": "SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning",
-          "url": "https://arxiv.org/abs/2605.28074",
-          "source": "ArXiv cs.CR",
-          "language": "en",
-          "published_at": "2026-05-28T04:00:00+00:00",
-          "relevance": 7.0,
-          "summary": "SilentRetrieval highlights vulnerabilities in RAG systems via a two-stage semantically-preserving attack.",
-          "detailed_summary": "",
-          "why_it_matters": "RAG 系统存在的语料完整性漏洞可能被隐蔽地利用以造成误导。",
-          "topics": [
-            "ai_security",
-            "llm",
             "cybersecurity"
           ],
-          "takeaways": [],
-          "recommended_action": ""
-        },
-        {
-          "id": "2026-05-28-014-snare-adaptive-scenario-synthesis-for-eliciting-overeager-be",
-          "rank": 14,
-          "title": "SNARE: Adaptive Scenario Synthesis for Eliciting Overeager Behavior in Coding Agents",
-          "url": "https://arxiv.org/abs/2605.28122",
-          "source": "ArXiv cs.AI",
-          "language": "en",
-          "published_at": "2026-05-28T04:00:00+00:00",
-          "relevance": 7.0,
-          "summary": "New benchmarks highlight worrying overeager behavior in coding AI agents, posing security risks.",
-          "detailed_summary": "",
-          "why_it_matters": "评估编码 AI 系统的越界行为无论是数据泄露还是安全设计，都需更加关注。",
-          "topics": [
-            "ai_security",
-            "ai_agents",
-            "ai_coding_agent_security"
+          "takeaways": [
+            "CRaFT提升了LLM安全拒绝特征的理解。",
+            "以跨层次分析方法增强模型安全性。",
+            "为进一步的模型安全评估提供了新思路。"
           ],
-          "takeaways": [],
-          "recommended_action": ""
+          "recommended_action": "建议深入研究CRaFT框架并在LLM安全评估中进行试点应用。"
         }
       ]
     }
@@ -315,119 +269,143 @@
       "id": "2026-05-28-001-google-ai",
       "rank": 1,
       "title": "Google 安全新发现:首个AI生成的零日漏洞利用的安全新挑战",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWBa2rHsE9RsvcNpw1jDjWIlqXa8Fplpd9k1cncyVFGZBGPuK1pu78oya9zbLzWoyc1sTCVCaEFmu0ofQMdqhAeVA-vmDF-kGl4vON1KWwZrNOUxXADaJfa-QRx93HJozMPq6v5gZ51RdZkOXiyVZcS0pd-3jHmF3HrI4Z9fmAdS_OmQSfyQ_q-CK5YgLspeO9PY90Mj1R-0UHpHkoPMgL3A..&type=2&query=AI%E7%94%9F%E6%88%90%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8&token=03FF514DB210A8D6A0A7F37C9F341471A17CD77A6A180939",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWa3eBCqkEEHrcNpw1jDjWIlqXa8Fplpd9k1cncyVFGZBGPuK1pu78oya9zbLzWoyc1sTCVCaEFmu0ofQMdqhAeVA-vmDF-kGl4vON1KWwZrNOUxXADaJfaxu0ntd7rERBmoBgbSMaUBJfevxhB_AQy0U4SiGry_Lc8dDQ2eUzv4l3fWn7V2c8jh50ZLW-W4IgS1p-W-F9PQUYJSSFPgfogQ..&type=2&query=AI%E7%94%9F%E6%88%90%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8&token=043506A5866DD4AADDDB8F0063C8B284DD6A9F7C6A181193",
       "source": "WeChat (WeChat)",
       "language": "zh",
       "published_at": "2026-05-27T04:49:26+00:00",
-      "relevance": 10.0,
-      "summary": "Google security team has discovered the first case of AI-generated zero-day exploit used in a real-world attack chain.",
-      "detailed_summary": "",
-      "why_it_matters": "此发现标志着 AI 生成的漏洞攻击从理论进入实际应用阶段，对 AI 安全防护策略提出了更高要求。",
+      "relevance": 9.0,
+      "summary": "Google researchers discovered the first AI-generated zero-day exploit, adding a new dimension to cybersecurity threats.",
+      "detailed_summary": "谷歌安全团队发现首个AI生成的零日漏洞被用于真实的攻击链中，这标志着人工智能在网络安全领域带来了新的挑战和威胁。该消息警醒了安全团队，AI生成的攻击方式增加了检测和防御的复杂性。",
+      "why_it_matters": "AI生成的零日漏洞利用重塑了攻击者的能力，增加网络安全的复杂性。",
       "topics": [
         "ai_vulnerability_discovery",
         "cybersecurity",
         "tech_business"
       ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-002-badhost-vulnerability-exposes-millions-of-ai-agents-and-serv",
-      "rank": 2,
-      "title": "BadHost Vulnerability Exposes Millions of AI Agents and Servers - incrypted",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ001TDBuWTh4bmdOVWM4aUktMXB6WmN4azJNeWRtTEpwMVJwcjF5M3NhbDBwdUZoMURSM2FoQXZaU3ZtRGc3ZklRQ3BYM29aTm1BUy1NY0JZSS1OdlVwS0Q2dXBYaVdsSWNBX0xNbzc?oc=5",
-      "source": "Google News (EN)",
-      "language": "en",
-      "published_at": "2026-05-27T15:12:00+00:00",
-      "relevance": 9.0,
-      "summary": "The BadHost vulnerability potentially exposes millions of AI agents and servers to breaches.",
-      "detailed_summary": "",
-      "why_it_matters": "BadHost 漏洞可以大规模影响到 AI 系统的基础设施安全。",
-      "topics": [
-        "ai_agents",
-        "cybersecurity"
+      "takeaways": [
+        "AI生成攻击提高了漏洞利用程度，需加强监测。",
+        "安全团队需更新防御策略以应对新型AI威胁。",
+        "与AI生成漏洞相关的攻击可能大幅增加。"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "recommended_action": "建议立即跟踪相关漏洞利用的技术细节，加强AI安全工具的研发。"
     },
     {
-      "id": "2026-05-28-003-malicious-npm-package-stole-files-from-claude-ai-user-direct",
-      "rank": 3,
+      "id": "2026-05-28-002-malicious-npm-package-stole-files-from-claude-ai-user-direct",
+      "rank": 2,
       "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
       "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
       "source": "The Hacker News",
       "language": "en",
       "published_at": "2026-05-27T15:44:29+00:00",
-      "relevance": 9.0,
-      "summary": "A malicious npm package was found stealing files from the user directory of the Claude AI tool.",
-      "detailed_summary": "",
-      "why_it_matters": "恶意软件包指向了软件供应链中潜在的安全威胁，提高了对 AI 工具的安全监控要求。",
+      "relevance": 8.5,
+      "summary": "A malicious npm package was discovered stealing files from Anthropic's Claude AI tool, posing a serious security risk.",
+      "detailed_summary": "安全研究人员在npm注册表中发现了一个名为“mouse5212-super-formatter”的恶意包，该包通过访问Anthropic的Claude AI工具的特定目录窃取数据。这显示了开源包中的安全漏洞对AI系统带来的潜在威胁。",
+      "why_it_matters": "此类事件提醒我们AI工具使用的开源依赖可能带来潜在的数据泄露风险。",
       "topics": [
         "llm",
         "cybersecurity",
         "software_dev",
         "tech_business"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "恶意软件可利用AI工具的文件系统访问权限。",
+        "需加强对开源依赖包的安全审计。",
+        "监控AI工具与数据存储交互可提高安全性。"
+      ],
+      "recommended_action": "建议加强对npm及其他开源依赖的安全监控和审核。"
     },
     {
-      "id": "2026-05-28-004-ai",
-      "rank": 4,
-      "title": "AI助手类应用通杀漏洞：间接提示注入可窃取企业敏感数据 - 安全内参",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94MVJERGRybTlmWnRfY1ZQRVE5UnBzUElOVUFMTWlnalJmU3k0VW5OOElzLXNHTzBMaFVFV25XbmNnUmNweGpkR0d5YVNYQQ?oc=5",
-      "source": "Google News (ZH)",
-      "language": "zh",
-      "published_at": "2026-05-27T07:32:21+00:00",
+      "id": "2026-05-28-003-badhost-vulnerability-exposes-millions-of-ai-agents-and-serv",
+      "rank": 3,
+      "title": "BadHost Vulnerability Exposes Millions of AI Agents and Servers - incrypted",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHQ001TDBuWTh4bmdOVWM4aUktMXB6WmN4azJNeWRtTEpwMVJwcjF5M3NhbDBwdUZoMURSM2FoQXZaU3ZtRGc3ZklRQ3BYM29aTm1BUy1NY0JZSS1OdlVwS0Q2dXBYaVdsSWNBX0xNbzc?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-27T15:12:00+00:00",
       "relevance": 8.5,
-      "summary": "AI assistant applications face a vulnerability where prompt injection can lead to data breaches by stealing enterprise data.",
-      "detailed_summary": "",
-      "why_it_matters": "AI 助手应用的提示注入漏洞构成了数据泄露的重大安全隐患。",
+      "summary": "The BadHost vulnerability puts millions of AI agents and servers at risk of exposure to unwanted access.",
+      "detailed_summary": "BadHost漏洞使得数百万AI智能体和服务器面临敏感信息暴露风险。攻击者可以利用该漏洞进入服务器端，获取未经授权的敏感数据访问权限。此事件提示AI系统基础架构中的严重隐患。",
+      "why_it_matters": "这一漏洞暴露了AI智能体系统潜在的安全威胁，需采取紧急措施修复。",
       "topics": [
-        "ai_security",
         "ai_agents",
         "cybersecurity"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "BadHost漏洞暴露系统敏感数据。",
+        "服务器端点需加强访问控制机制。",
+        "应及时修复以防止恶意利用。"
+      ],
+      "recommended_action": "建议立即评估受影响系统并采取必要的修复措施。"
     },
     {
-      "id": "2026-05-28-005-mcp-security-flaws-are-turning-ai-infrastructure-into-a-supp",
-      "rank": 5,
+      "id": "2026-05-28-004-mcp-security-flaws-are-turning-ai-infrastructure-into-a-supp",
+      "rank": 4,
       "title": "MCP security flaws are turning AI infrastructure into a supply-chain risk - Startup Fortune",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORlVDallFT3RkRDF0Y3ZJZjk5ZTcyek4xd3RfOW1yeG9TUGdVckFPMGdpUVg3SnQ4Y3NWWTV2VVJDRnFHQVU5a0htRER3cXpOSnllMGVSb0plUzVwQVNYRVRWR1d1TGdMSjdDQURpeTY0S0xFVzVRYXp0MFhpVUIyYU1GSzhXbHBxekozWnB5emZxWGhQaEJJUHp1M0pMTm1zNDFN?oc=5",
       "source": "Google News (EN)",
       "language": "en",
       "published_at": "2026-05-28T02:03:20+00:00",
       "relevance": 8.0,
-      "summary": "Supply-chain risks in AI infrastructure are exacerbated by MCP security flaws.",
-      "detailed_summary": "",
-      "why_it_matters": "这些安全漏洞可能引发更广泛的供应链攻击，影响多个企业级系统。",
+      "summary": "MCP vulnerabilities pose significant supply-chain risks for AI infrastructures, necessitating urgent countermeasures.",
+      "detailed_summary": "MCP系统中的安全漏洞对AI基础设施构成了严重的供应链风险，包括可能导致的恶意代码注入和数据泄露。这要求立即采取措施，以加强对MCP相关组件的安全防护。",
+      "why_it_matters": "此漏洞显示AI供应链中的潜在风险，需及早防范。",
       "topics": [
         "ai_agents",
         "mcp_security"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "MCP漏洞提升AI基础设施安全风险。",
+        "需加强供应链组件的安全审查。",
+        "部署安全措施以避免恶意利用。"
+      ],
+      "recommended_action": "建议立即进行MCP系统安全审计，并落实防御措施。"
     },
     {
-      "id": "2026-05-28-006-xage-security-unlocks-jailbreak-proof-ai-agent-autonomy-with",
-      "rank": 6,
-      "title": "Xage Security Unlocks Jailbreak-proof AI Agent Autonomy with End-to-End Visibility and Control - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRXZCV2E5RjVXOG5xZHI0Z0UzOGw3bHduZnkxbU5kOEF2VllubGUzOERqYUhVUUJ3T2tYNUtJXzNoRy1tam1vQ052WERrSVd0RExwMlFLblhwZkMyYVFQSjNIeEJzNFFtR1hmMGJkNzVuLTRsYXdrOUVsZjhvTzVEaUJVUjZFVk9pZDFmTlVWRG9zakpQemh0Q1FxRnlKNGxWNG9Hc2lXQzRnRkV2SUZvcHZqZDFubzViVktscEhKUmVtQjlxbVBmQWxPZ0ZGWEVmRGhzazhCaW55U2VndHNkR0E1Z3VYLXJIbHZHay12a3RzdHpuTTEyc1R3?oc=5",
-      "source": "Google News (EN)",
-      "language": "en",
-      "published_at": "2026-05-27T13:00:00+00:00",
-      "relevance": 7.5,
-      "summary": "Xage Security introduces a jailbreak-proof AI agent system ensuring end-to-end security and control.",
-      "detailed_summary": "",
-      "why_it_matters": "此系统代表了 AI 代理系统安全性的提升，能防止越狱及潜在的恶意行动。",
+      "id": "2026-05-28-005-ai",
+      "rank": 5,
+      "title": "AI助手类应用通杀漏洞：间接提示注入可窃取企业敏感数据 - 安全内参",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94MVJERGRybTlmWnRfY1ZQRVE5UnBzUElOVUFMTWlnalJmU3k0VW5OOElzLXNHTzBMaFVFV25XbmNnUmNweGpkR0d5YVNYQQ?oc=5",
+      "source": "Google News (ZH)",
+      "language": "zh",
+      "published_at": "2026-05-27T07:32:21+00:00",
+      "relevance": 8.0,
+      "summary": "An AI assistant vulnerability enables indirect prompt injection to steal sensitive enterprise data, posing a significant threat.",
+      "detailed_summary": "这类AI助手被发现存在间接提示注入漏洞，可以用于窃取企业敏感数据，表明AI工具在企业安全中存在尚未解决的风险。这款漏洞的出现促使企业重新审视其AI工具的安全防护能力。",
+      "why_it_matters": "AI助手工具的安全漏洞对企业数据构成了显著威胁，需立即修护。",
       "topics": [
         "ai_security",
-        "ai_agents"
+        "ai_agents",
+        "cybersecurity"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "AI助手应用存在间接提示注入风险。",
+        "敏感数据亟需更严密的保护措施。",
+        "企业需强化AI工具的安全防护。"
+      ],
+      "recommended_action": "建议立即排查相关AI工具的安全漏洞，并增加数据保护措施。"
+    },
+    {
+      "id": "2026-05-28-006-ai",
+      "rank": 6,
+      "title": "当AI自主操作浏览器,企业安全正迎来全新挑战",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZW36_9-jxUM1bcNpw1jDjWIlqXa8Fplpd9SHDzjphtKvqtytAr9_tmy01sGTz2dnDT-s1kyOi4szpQFjClWzWsxfzewQEIAi6rjg1QrRKJHu4telugQgnwhZR8feMFBNNmUcmeMOWy78XELYg3lTlu7Gev2Qkg1UuZAL3tcUl5-PUxrHr_qmhuOJvC2Mh_JmqLnyCw0v3xUDHf3q8uRDTfkw..&type=2&query=AI%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8&token=043560DA866DD4AADDDB8F0063C8B284DD6A9F7C6A1811A3",
+      "source": "WeChat (WeChat)",
+      "language": "zh",
+      "published_at": "2026-05-27T04:01:51+00:00",
+      "relevance": 6.5,
+      "summary": "The proliferation of AI browser agents raises new security challenges, triggering concerns among security researchers.",
+      "detailed_summary": "随着AI浏览器代理工具的流行，企业安全面临新的风险挑战。研究发现AI代理可能在浏览器环境中引发潜在的安全隐患，例如未经授权的数据访问和操作失误，提示管理中需引入更严格的控制机制。",
+      "why_it_matters": "AI代理工具的安全隐患表明企业需重新评估和强化安全管理措施。",
+      "topics": [
+        "ai_agents",
+        "ai_agent_security"
+      ],
+      "takeaways": [
+        "AI代理可能在浏览器中引发安全风险。",
+        "需提升对AI代理工具的权限管理。",
+        "严格的控制机制可以增强系统安全。"
+      ],
+      "recommended_action": "建议尽快评估使用AI代理工具的安全性，并加强监管。"
     },
     {
       "id": "2026-05-28-007-nudge-security-becomes-the-first-ai-security-solution-to-dis",
@@ -437,155 +415,91 @@
       "source": "Google News (EN)",
       "language": "en",
       "published_at": "2026-05-27T12:00:00+00:00",
-      "relevance": 7.5,
-      "summary": "Nudge Security introduces the first AI security solution to discover shadow AI agents beyond APIs.",
-      "detailed_summary": "",
-      "why_it_matters": "这为企业提升对影子 AI 代理的安全管理，尤其是在 API 之外的部分，提供了新的解决方案。",
+      "relevance": 8.5,
+      "summary": "Nudge Security's new AI solution discovers shadow AI agents beyond API reach, enhancing detection capabilities.",
+      "detailed_summary": "Nudge Security开发出首个能够识别超出API范围的影子AI智能体的安全解决方案，增强了检测未知AI组件的能力。这提高了对动态AI系统内隐形威胁的感知和应对能力，为企业提供更全面的安全保障。",
+      "why_it_matters": "揭示和管理影子AI智能体进程，这对AI安全提出了更高要求。",
       "topics": [
         "ai_security",
         "ai_agents"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "Nudge提升了对未知AI智能体的检测能力。",
+        "将增强企业对AI系统中隐形威胁的管理。",
+        "提供全面的安全检测和响应能力。"
+      ],
+      "recommended_action": "建议引入该解决方案以加强组织AI系统的全面安全监控。"
     },
     {
-      "id": "2026-05-28-008-champion-hacker-says-claude-mythos-could-soon-outpace-top-ha",
+      "id": "2026-05-28-008-mythos",
       "rank": 8,
-      "title": "Champion Hacker Says Claude Mythos Could Soon Outpace Top Hackers - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mX09EZEtYUW5mVlRFNGFqUUt4R0dVT1hOb0prdEFydDMwclJyUWRheEFrSDNFU2t5UTRMVzFBZEV5WUFxZlAyV1pIMHdEUlRsRHUwYzlPQnN1YUxoeFBib096N3liY3FL?oc=5",
-      "source": "Google News (EN)",
-      "language": "en",
-      "published_at": "2026-05-27T06:49:05+00:00",
-      "relevance": 5.0,
-      "summary": "Claude Mythos AI model could potentially surpass human hackers in effectiveness, states expert.",
-      "detailed_summary": "",
-      "why_it_matters": "AI 技术在黑客领域的应用将改变现有的网络安全对抗格局。",
-      "topics": [
-        "llm",
-        "ai_vulnerability_discovery"
-      ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-009-ai",
-      "rank": 9,
-      "title": "当AI自主操作浏览器,企业安全正迎来全新挑战",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWzHBRKLdIifPcNpw1jDjWIlqXa8Fplpd9SHDzjphtKvqtytAr9_tmy01sGTz2dnDT-s1kyOi4szpQFjClWzWsxfzewQEIAi6rjg1QrRKJHu4telugQgnwhWUG-j0-wvUq85S5DEuzYRhiONbPowLZUurnypay_ZrW7HHZBkmgTpGN5fAfP_diefQxLnz1rVNgFsyikrm8TS8tPujwwRB2Pw..&type=2&query=AI%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E5%85%A8&token=03FFAE7BB210A8D6A0A7F37C9F341471A17CD77A6A180949",
-      "source": "WeChat (WeChat)",
-      "language": "zh",
-      "published_at": "2026-05-27T04:01:51+00:00",
-      "relevance": 8.0,
-      "summary": "AI browser agents introduce new security challenges as their use becomes widespread.",
-      "detailed_summary": "",
-      "why_it_matters": "AI 浏览器代理的普及对安全团队提出了新的挑战，需要重新审视和调整安全策略。",
-      "topics": [
-        "ai_agents",
-        "ai_agent_security"
-      ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-010-technical-report-exploring-the-emerging-threats-of-the-agent",
-      "rank": 10,
-      "title": "Technical Report: Exploring the Emerging Threats of the Agent Skill Ecosystem",
-      "url": "https://arxiv.org/abs/2605.28588",
-      "source": "ArXiv cs.AI",
-      "language": "en",
-      "published_at": "2026-05-28T04:00:00+00:00",
-      "relevance": 7.5,
-      "summary": "A technical report finds significant malicious payloads in AI agent skills, urging security improvements.",
-      "detailed_summary": "",
-      "why_it_matters": "这份报告揭示了 AI 代理技能市场存在的安全漏洞和潜在威胁。",
-      "topics": [
-        "ai_security",
-        "ai_agents",
-        "ai_agent_security"
-      ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-011-mythos",
-      "rank": 11,
       "title": "＂神话＂兑现 Mythos模型发现超万高危漏洞",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWPwT8YBpKvQLcNpw1jDjWIlqXa8Fplpd97_0HOJ1-E7woS96CfDfSX453VxiPrV7GXsYh8Hr6azWE51Ch5jpFY1aO1nkdUvaNt0CGgCm8mOn3fusfuJJq2tj8blI9RbOU6asrXn4G1P_sI3j3h3kFzFfq5CKtokyiB1RQuqLy-cSxt-VeiLIGy9ZdbKkQVdyQpjW4zl4SPxD6zvkPgoArRQ..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=03FF18A3B210A8D6A0A7F37C9F341471A17CD77A6A180930",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWMrnFNg7VRWPcNpw1jDjWIlqXa8Fplpd97_0HOJ1-E7woS96CfDfSX453VxiPrV7GXsYh8Hr6azWE51Ch5jpFY1aO1nkdUvaNt0CGgCm8mOn3fusfuJJq2ofrm-H3979URyiaJj4FpVrjRURoK-02vx_h10e7-88htG7wXUaTmLaJhsWwjc1PT3I7koe5ng_jYN15irOQgyLf3q8uRDTfkw..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=0434D1F4866DD4AADDDB8F0063C8B284DD6A9F7C6A18118A",
       "source": "WeChat (WeChat)",
       "language": "zh",
       "published_at": "2026-05-27T23:30:31+00:00",
-      "relevance": 7.5,
-      "summary": "Project Glasswing enables detection of over 10,000 high-risk vulnerabilities using Claude Mythos technology.",
-      "detailed_summary": "",
-      "why_it_matters": "这些突破性发现标志着 AI 在软件安全扫描领域的领导地位，并推动行业标准提高。",
+      "relevance": 8.0,
+      "summary": "Anthropic's Mythos model collaboration discovers significant vulnerabilities in key software among partners.",
+      "detailed_summary": "Anthropic项目在与五十家合作伙伴的关键软件中发现了超万的高危漏洞，显示了Claude Mythos模型在大规模协作中的显著作用。这为提高漏洞检测效率带来新的视角，但也显现了安全行业对补丁速度的挑战。",
+      "why_it_matters": "合作团队运用AI模型发现大量漏洞，为提升安全检测带来契机。",
       "topics": [
         "llm",
         "ai_vulnerability_discovery",
         "cybersecurity"
       ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-012-article",
-      "rank": 12,
-      "title": "多智能体大模型驱动自动化漏洞发现系统",
-      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS2BIwqjDNbZWPwT8YBpKvQLcNpw1jDjWIlqXa8Fplpd9_wG02uf_oHilo_S_yq2KpD03CvOjvEGLNb37aAv8wCZMtMhB_OiCnadH-TQbYr7RAYJw0FxCC7uJFctCi62zBjOQn81ctO7q0a84CJfRH4nUPETMSeervgx7V-lnYXYZFGkaZ2kfSVeJCUoaeLwkKeZhcq_pj_8rElxTa-fsdxzy08OLTBhW0A..&type=2&query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0%E6%BC%8F%E6%B4%9E&token=03FF18A3B210A8D6A0A7F37C9F341471A17CD77A6A180930",
-      "source": "WeChat (WeChat)",
-      "language": "zh",
-      "published_at": "2026-05-27T23:04:04+00:00",
-      "relevance": 7.5,
-      "summary": "A multi-agent model automates vulnerability discovery, offering transformative solutions for software security.",
-      "detailed_summary": "",
-      "why_it_matters": "这项技术革新显示了 AI 在安全自动化领域的巨大潜力，可能改变未来漏洞检测的方式。",
-      "topics": [
-        "llm",
-        "ai_agents",
-        "ai_vulnerability_discovery",
-        "cybersecurity"
+      "takeaways": [
+        "AI模型协作发现大量关键漏洞。",
+        "提高漏洞检测效率，但补丁管理须加速。",
+        "安全行业需应对新检测方法的挑战。"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "recommended_action": "建议关注该项目的技术应用，以评估其在漏洞管理中的实际效益。"
     },
     {
-      "id": "2026-05-28-013-silentretrieval-hijacking-retrieval-augmented-generation-via",
-      "rank": 13,
-      "title": "SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning",
-      "url": "https://arxiv.org/abs/2605.28074",
-      "source": "ArXiv cs.CR",
-      "language": "en",
-      "published_at": "2026-05-28T04:00:00+00:00",
-      "relevance": 7.0,
-      "summary": "SilentRetrieval highlights vulnerabilities in RAG systems via a two-stage semantically-preserving attack.",
-      "detailed_summary": "",
-      "why_it_matters": "RAG 系统存在的语料完整性漏洞可能被隐蔽地利用以造成误导。",
-      "topics": [
-        "ai_security",
-        "llm",
-        "cybersecurity"
-      ],
-      "takeaways": [],
-      "recommended_action": ""
-    },
-    {
-      "id": "2026-05-28-014-snare-adaptive-scenario-synthesis-for-eliciting-overeager-be",
-      "rank": 14,
-      "title": "SNARE: Adaptive Scenario Synthesis for Eliciting Overeager Behavior in Coding Agents",
-      "url": "https://arxiv.org/abs/2605.28122",
+      "id": "2026-05-28-009-craft-circuit-guided-refusal-feature-selection-via-cross-lay",
+      "rank": 9,
+      "title": "CRaFT: Circuit-Guided Refusal Feature Selection via Cross-Layer Transcoders",
+      "url": "https://arxiv.org/abs/2604.01604",
       "source": "ArXiv cs.AI",
       "language": "en",
       "published_at": "2026-05-28T04:00:00+00:00",
-      "relevance": 7.0,
-      "summary": "New benchmarks highlight worrying overeager behavior in coding AI agents, posing security risks.",
-      "detailed_summary": "",
-      "why_it_matters": "评估编码 AI 系统的越界行为无论是数据泄露还是安全设计，都需更加关注。",
+      "relevance": 7.5,
+      "summary": "CRaFT framework unveils a cross-layer method to understand refusal features in LLMs, enhancing model safety.",
+      "detailed_summary": "CRaFT框架揭示了一种跨层次方法，分析大型语言模型中的拒绝特征，提升了模型的安全性。这一研究使得模型的安全分析更加精细化，为提高拒绝危险请求的系统能力提供了方法论参考。",
+      "why_it_matters": "揭示了理解和提高LLM安全性的新机制，有助于完善安全防护能力。",
       "topics": [
         "ai_security",
-        "ai_agents",
-        "ai_coding_agent_security"
+        "cybersecurity"
       ],
-      "takeaways": [],
-      "recommended_action": ""
+      "takeaways": [
+        "CRaFT提升了LLM安全拒绝特征的理解。",
+        "以跨层次分析方法增强模型安全性。",
+        "为进一步的模型安全评估提供了新思路。"
+      ],
+      "recommended_action": "建议深入研究CRaFT框架并在LLM安全评估中进行试点应用。"
+    },
+    {
+      "id": "2026-05-28-010-ecb-tells-banks-to-invest-in-cybersecurity-due-to-ai-risk-wh",
+      "rank": 10,
+      "title": "ECB tells banks to invest in cybersecurity due to AI risk: What Eurozone firms must do now - Blockchain Council",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT28wcUxJVXhuSDdLdjZGWUdDUUc2ZmpkRFdLUV92OTRFclhCNV9ZWU5RY01qclhHZUF3ZVdUaE94R2tNaDVsbGZQcUZCNjhHTURuZkp3TnNKWDJBZVNqZXRqZXhjR2lfUU4xTUdaTnBxd2tVUkR1X19NUS1rWmVUZThHM21wdEJUVDQ0dlZR?oc=5",
+      "source": "Google News (EN)",
+      "language": "en",
+      "published_at": "2026-05-27T16:39:59+00:00",
+      "relevance": 7.5,
+      "summary": "ECB advises banks to enhance cybersecurity investments due to rising AI-related risks in the Eurozone.",
+      "detailed_summary": "欧央行为应对AI带来的风险，建议银行加大网络安全投资。这表明随着AI技术的广泛应用，金融机构面临新的安全挑战，需提升安全防护措施以确保金融系统的可靠性和稳定性。",
+      "why_it_matters": "AI风险对金融安全构成了新威胁，需提前布局全面的技术保护措施。",
+      "topics": [
+        "ai_safety",
+        "cybersecurity",
+        "blockchain_web3"
+      ],
+      "takeaways": [
+        "AI风险增加金融系统安全压力。",
+        "央行倡导加大安全投资以应对挑战。",
+        "需提升金融机构的安全防护能力。"
+      ],
+      "recommended_action": "建议金融机构审视并提高自身的网络安全投资和保护措施。"
     }
   ]
 }
