@@ -113,9 +113,30 @@
       `;
     }
 
+    function recommendedActionBlock(action) {
+      if (!action) return "";
+
+      return `
+        <section class="bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-xl space-y-2">
+          <h3 class="text-sm font-bold uppercase tracking-wider text-blue-700 font-mono flex items-center space-x-1.5">
+            <span>→ 建议跟进 / Recommended Action</span>
+          </h3>
+
+          <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
+            ${escapeHtml(action)}
+          </p>
+        </section>
+      `;
+    }
+
     function renderArticle(article, data) {
       document.title = `${article.title} - AI Safety News Digest`;
       document.querySelector("#digest-date").textContent = data.date || "";
+
+      const detailSummary = article.detailed_summary || article.detailed_summary_zh || article.summary || "";
+      const whyImportant = article.why_it_matters || article.why_important || article.why_important_zh || "";
+      const takeaways = article.takeaways || article.key_takeaways_zh || article.key_takeaways || [];
+      const recommendedAction = article.recommended_action || article.recommended_action_zh || "";
 
       const root = document.querySelector("#article-root");
 
@@ -149,27 +170,29 @@
           <section class="space-y-3">
             <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500 font-mono flex items-center space-x-2">
               <span class="w-1 h-3 bg-blue-500 rounded-full"></span>
-              <span>新闻摘要 / Context</span>
+              <span>新闻深度总结 / Detailed Summary</span>
             </h3>
 
             <p class="text-slate-700 text-base leading-relaxed bg-slate-50 border border-slate-200 p-4 rounded-xl">
-              ${escapeHtml(article.summary || "")}
+              ${escapeHtml(detailSummary)}
             </p>
           </section>
 
-          ${article.why_it_matters ? `
+          ${whyImportant ? `
             <section class="bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-xl space-y-2">
               <h3 class="text-sm font-bold uppercase tracking-wider text-amber-700 font-mono flex items-center space-x-1.5">
                 <span>★ 核心洞察 / Why It Matters</span>
               </h3>
 
               <p class="text-slate-700 text-sm sm:text-base leading-relaxed">
-                ${escapeHtml(article.why_it_matters)}
+                ${escapeHtml(whyImportant)}
               </p>
             </section>
           ` : ""}
 
-          ${takeawaysList(article.takeaways)}
+          ${takeawaysList(takeaways)}
+
+          ${recommendedActionBlock(recommendedAction)}
 
           <div class="pt-4 border-t border-slate-200 flex justify-end">
             ${article.url ? `
@@ -200,9 +223,11 @@
       }
 
       try {
-        const dataFile = date ? `./data/${encodeURIComponent(date)}.json?ts=${Date.now()}` : `./data/latest.json?ts=${Date.now()}`;
-        const res = await fetch(dataFile);
+        const dataFile = date
+          ? `./data/${encodeURIComponent(date)}.json?ts=${Date.now()}`
+          : `./data/latest.json?ts=${Date.now()}`;
 
+        const res = await fetch(dataFile);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         const data = await res.json();
