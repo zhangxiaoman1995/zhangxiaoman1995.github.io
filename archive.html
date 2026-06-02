@@ -19,7 +19,7 @@
   <nav class="border-b border-white/5 bg-darkBg/60 backdrop-blur-md sticky top-0 z-50 px-6 py-4">
     <div class="max-w-4xl mx-auto flex justify-between items-center">
       <a href="index.html" class="flex items-center space-x-3">
-        <div class="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-lg text-white font-bold text-sm tracking-wider">α★</div>
+        <div class="bg-gradient-to-br from-blue-500 to-indigo-600 p-2 rounded-lg text-white font-bold text-sm tracking-wider">★</div>
         <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-slate-200 to-slate-500 bg-clip-text text-transparent">
           AI Safety News Digest
         </span>
@@ -64,13 +64,13 @@
         }
 
         root.innerHTML = items.map(item => `
-          <a href="${escapeHtml(item.file)}" target="_blank" rel="noopener noreferrer" class="block bg-white/[0.02] border border-white/10 rounded-xl p-5 hover:bg-white/[0.04] hover:border-blue-500/30 transition">
+          <a href="index.html?date=${encodeURIComponent(item.date)}" class="block bg-white/[0.02] border border-white/10 rounded-xl p-5 hover:bg-white/[0.04] hover:border-blue-500/30 transition">
             <div class="flex items-center justify-between gap-4">
               <div>
                 <div class="text-lg font-semibold text-slate-200">${escapeHtml(item.date)}</div>
                 <div class="text-sm text-slate-500 font-mono">${escapeHtml(item.generated_at || "")}</div>
               </div>
-              <div class="text-sm text-slate-400 font-mono">${escapeHtml(item.top_pick)} items ↗</div>
+              <div class="text-sm text-slate-400 font-mono">${escapeHtml(item.top_pick)} items →</div>
             </div>
           </a>
         `).join("");
